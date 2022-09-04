@@ -1,0 +1,353 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header-container {
+    background-color: rgb(42, 100, 42);
+}
+
+.head-container {
+    display: flex;
+    flex-wrap: wrap;
+    color: gray;
+    background-color: whitesmoke;
+    width: 100%;
+}
+
+.nav-bar {
+    display: flex;
+    padding: 20px;
+    width: 50%;
+}
+
+
+.navbar-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.navbar-wrapper ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.navbar-wrapper ul li {
+    padding: 7px;
+    color: red;
+    list-style: none;
+}
+
+.right-container {
+    width: 50%;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.logo-text {
+    text-transform: capitalize;
+    font-size: 20px;
+    color: brown;
+}
+
+.image img {
+    padding: 10px;
+    width: 20%;
+}
+
+.image {
+    padding: 20px;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menu-bar {
+    padding: 20px;
+    width: 50%;
+}
+
+.menu-bar a {
+    font-size: 20px;
+    text-decoration: none;
+    padding: 20px;
+    cursor: pointer;
+}
+
+.flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.innerflex {
+    width: 300px;
+    height: 550px;
+    margin: 20px;
+    background-color: whitesmoke;
+    border-radius: 15px;
+}
+
+.innerflex a {
+    text-transform: capitalize;
+    background-color: green;
+    color: white;
+    padding: 15px 20px;
+    margin: 50px;
+    display: block;
+    text-align: center;
+}
+
+
+.innerflex:hover {
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    transform: scale(1.03);
+    transition: all 1s ease;
+}
+
+.car-image {
+    height: 200px;
+    margin-bottom: 15px;
+    background-size: cover;
+}
+
+.car-1 {
+    background-image: url('./car1.png');
+}
+
+.car-2 {
+    background-image: url('./car2.png');
+}
+
+.car-3 {
+    background-image: url('./car2.png');
+}
+
+.innerflex h1 {
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 7px;
+    color: rgb(42, 100, 42);
+}
+
+.innerflex ul li {
+    list-style: none;
+    text-transform: capitalize;
+    text-align: center;
+    color: rgb(42, 100, 42);
+    font-size: larger;
+}
+
+
+.wraper-container h1 {
+    color: green;
+    padding: 5px;
+    text-transform: capitalize;
+}
+
+.main-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wraper-container {
+    background-color: whitesmoke;
+    width: 50%;
+}
+
+.card-image a {
+    text-transform: capitalize;
+    background-color: green;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.card-image {
+    padding: 10px;
+    text-transform: capitalize;
+    color: green;
+}
+
+.card-image1 {
+    padding: 10px;
+    display: flex;
+    text-transform: capitalize;
+    color: green;
+}
+
+.card-image1 p {
+    padding: 20px;
+    text-align: justify;
+}
+
+.card-image1 img {
+    width: 200px;
+    height: 100px;
+}
+
+.outer-container {
+    background-color: whitesmoke;
+}
+
+.outer-container h1 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.outer-container p {
+    padding: 20px;
+    font-size: 20px;
+    text-transform: capitalize;
+    text-align: justify;
+}
+
+.inner-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.sub-inner {
+    width: 50%;
+    display: flex;
+}
+
+.sub-inner p {
+    background-color: green;
+    color: white;
+}
+
+.sub-inner img {
+    width: 50%;
+    border: 2px solid;
+}
+
+.footer-container {
+    color: white;
+    background-color: rgb(37, 33, 33);
+    padding: 30px 0px 0px 20px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.inner-footer {
+    width: 33.333333%;
+}
+
+.footer1 {
+    width: 33.333333%;
+}
+
+.footer1 ul {
+    padding: 10px;
+    list-style: none;
+}
+
+.footer1 ul li {
+    padding: 4px;
+}
+
+.footer1 ul li a {
+    color: green;
+    text-decoration: none;
+}
+
+.footer2 {
+    width: 33.333333%;
+}
+
+.footer2 input[type=submit] {
+    text-transform: capitalize;
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.copyright {
+    width: 100%;
+    color: white;
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width:576px) {
+    .main-container {
+        width: 100%;
+    }
+
+    .nav-bar {
+        width: 100%;
+    }
+
+    .menu-bar {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .right-container {
+        width: 100%;
+    }
+
+    .wraper-container {
+        width: 100%;
+    }
+
+    .car-image {
+        width: 100%;
+    }
+
+    .outer-container {
+        width: 100%;
+    }
+
+    .flex {
+        width: 100%;
+    }
+
+    .inner-container {
+        width: 100%;
+    }
+
+    .sub-inner {
+        width: 100%;
+    }
+
+    .footer-container {
+        width: 100%;
+    }
+
+    .inner-footer {
+        width: 100%;
+    }
+
+    .footer1 {
+        width: 100%;
+    }
+
+    .footer2 {
+        width: 100%;
+    }
+}
